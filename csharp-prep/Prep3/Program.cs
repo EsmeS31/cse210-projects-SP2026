@@ -6,20 +6,20 @@ class Program
     {
         
         Random randomGenerator = new Random();
-        int magicNumber = randomGenerator.Next(1, 100);
+        int magicNum = randomGenerator.Next(1, 100);
 
         int guess = -1;
 
-        while (guess != magicNumber)
+        while (guess != magicNum)
         {
             Console.Write("What is your guess? ");
             guess = int.Parse(Console.ReadLine());
 
-            if (magicNumber > guess)
+            if (magicNum > guess)
             {
                 Console.WriteLine("Higher");
             }
-            else if (magicNumber < guess)
+            else if (magicNum < guess)
             {
                 Console.WriteLine("Lower");
             }
