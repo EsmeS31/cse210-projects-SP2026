@@ -10,7 +10,7 @@ class Program
         int userNumber = -1;
         while (userNumber != 0)
         {
-            Console.WriteLine("Enter a list of numbers, type 0 when finished. ");
+            Console.WriteLine("Enter a list of numbers, type 0 when finished.");
             Console.Write("Enter number: ");
             
             string userResponse = Console.ReadLine();
