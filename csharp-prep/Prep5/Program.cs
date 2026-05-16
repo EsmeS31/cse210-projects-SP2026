@@ -38,20 +38,17 @@ class Program
 
         return number;
     }
-    
     static void PromptUserBirthYear(out int birthYear)
     {
         Console.Write($"Please enter the year you were born: ");
         birthYear = int.Parse(Console.ReadLine());
 
     }
-
     static int SquareNumber(int number)
     {
         int square = number * number;
         return square;
     }
-
     static void DisplayResult(string name, int square, int birthYear)
     {
         Console.WriteLine($"{name}, the square of your number is {square}.");
