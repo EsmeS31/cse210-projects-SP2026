@@ -8,7 +8,9 @@ class Entry
     //Behaviors
     public void Display()
     {
-        Console.WriteLine($"{_date} -- {_prompt} \n {_response}");
+        Console.WriteLine($"Date: {_date} - Prompt: {_prompt}");
+        Console.WriteLine(_response);
+        Console.WriteLine();
     }
 
 }
