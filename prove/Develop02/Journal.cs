@@ -36,6 +36,7 @@ class Journal
     }
 
     public void LoadFromFile(string fileName)
+    
     {
         _entries.Clear();
 
